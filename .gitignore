@@ -1,0 +1,55 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildpath
+.cproject
+.fdb_latencies
+.indexes
+.metadata
+.plugins
+.settings
+.target
+.tours
+.project
+build_log*.txt
+log.txt
+.tmp/
+
+# Crash dumps (JVM / Gradle)
+hs_err_pid*.log
+replay_pid*.log
+
+# Development targets
+/*.xcodeproj
+
+# Flutter-related
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbol listing white-list
+!/build/ios/app.framework
+
+# User-specific stuff
+/.idea/
+/.vscode/
+*.darttool
+
+# Secrets / signing (never upload)
+key.properties
+*.jks
+*.keystore
+local.properties
+.env
+.env.*
+
+# Legal pages (kept local only)
+privacy_policy.html
+PRIVACY_POLICY.md
