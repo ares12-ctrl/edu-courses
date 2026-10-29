@@ -55,6 +55,7 @@ dependencies:
   fluttertoast: ^9.0.0
   curved_labeled_navigation_bar: ^2.0.6
   screen_protector: ^1.5.1
+  device_info_plus: ^13.3.0
   
 dev_dependencies:
   flutter_test:
