@@ -61,5 +61,11 @@
             <action android:name="android.intent.action.VIEW" />
             <data android:scheme="http" />
         </intent>
+        <!-- حزم المحاكيات: بتخلي كشف المحاكي يقدر يشوفها على Android 11+ -->
+        <package android:name="com.bluestacks.home" />
+        <package android:name="com.bluestacks.appmart" />
+        <package android:name="com.bluestacks.BstCommandProcessor" />
+        <package android:name="com.bignox.app" />
+        <package android:name="com.vphone.launcher" />
     </queries>
 </manifest>
